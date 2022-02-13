@@ -1,0 +1,52 @@
+h1{
+    text-align: center;
+    margin-top: 1em;
+    color: white;
+}
+h3{
+    text-align: center;
+    margin-top: 1em;
+    color: white;
+}
+#text{
+    text-align: center;
+    margin-top: 1em;
+    color: white;
+}
+
+body{
+    background-color: #353233;
+}
+
+
+#post{
+    margin-top: 1.9em;
+    display: block;
+    width: auto;
+    height: auto + 100px;
+    padding: 5px;
+    border: 1px solid #968bce;    
+    background-color: #968bce; 
+    transition: 200ms linear;
+}
+
+#post:hover{
+    margin-top: 1.9em;
+    display: block;
+    width: auto;
+    height: auto + 100px;
+    padding: 5px;
+    border: 1px solid rgb(26, 159, 221);    
+    background-color: rgb(26, 159, 221); 
+    transition: 200ms linear;
+}
+#time{
+    text-align: left;
+    color: white;
+    font-size: 10px;
+}
+
+#timetableTitle{
+    font-size: 10px;
+}
+
