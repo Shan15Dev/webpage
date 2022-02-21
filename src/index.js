@@ -8,6 +8,7 @@ import  AboutUs  from "./pages/AboutUs";
 import  Navigation  from "./components/Navigation";
 import Projects from "./pages/Projects";
 import Timetable from "./pages/Timetable";
+import Footer from "./pages/Footer";
 
 ReactDOM.render(
   <Router>

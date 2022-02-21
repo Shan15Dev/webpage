@@ -7,15 +7,20 @@ const TimetableComponent = (props) => {
     <div className='container'>
         <div id='post'>
           <div id='timetableTitle'>
-            <h3>{props.subject}</h3>
+            <p>{props.subject}</p>
           </div>
+          <div className='textSideBySide'>
             <div id='time'>
               <p>{props.startTime}</p>
               <p>{props.endTime}</p>
             </div>
+            <div id='teacher'>
+              <p>{props.teacher}</p>
+            </div>
+          </div>
         </div>
     </div>
-  )
+  );
 }
 
-export default TimetableComponent
+export default TimetableComponent;

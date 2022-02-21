@@ -5,7 +5,11 @@ import React from 'react';
 const Home = () => {
   return (
     <div className='container'>
-        <h1>Welcome to the Page from Shan</h1>
+      <div id='container'>
+        <div id='main'>
+          <h1>Welcome to the Page from Shan</h1>
+        </div>
+      </div>
     </div>
   )
 }
