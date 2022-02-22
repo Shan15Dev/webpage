@@ -14,10 +14,10 @@ ReactDOM.render(
   <Router>
     <Navigation />
     <Routes>
-      <Route path="" element={<Home />} />
-      <Route path="/projects" element={<Projects />} />
-      <Route path="/about-us" element={<AboutUs />} />
-      <Route path="/timetable" element={<Timetable />} />
+      <Route path="webpage/" element={<Home />} />
+      <Route path="webpage/projects" element={<Projects />} />
+      <Route path="webpage/about-us" element={<AboutUs />} />
+      <Route path="webpage/timetable" element={<Timetable />} />
     </Routes>
   </Router>,
 
